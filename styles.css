@@ -1,22 +1,27 @@
+/* General body styles and transitions */
 body {
     font-family: Arial, sans-serif;
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Light theme styles */
 body.light {
     background-color: #ffffff;
     color: #000000;
 }
 
+/* Dark theme styles */
 body.dark {
     background-color: #121212;
     color: #ffffff;
 }
 
+/* Center aligned heading style */
 h1 {
     text-align: center;
 }
 
+/* Button styles */
 button {
     display: block;
     margin: 20px auto;
